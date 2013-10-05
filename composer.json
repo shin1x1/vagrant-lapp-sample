@@ -1,0 +1,28 @@
+{
+  "repositories" : [
+    {
+      "type": "package",
+      "package": {
+        "name" : "cakephp/cakephp",
+        "version" : "2.4.1",
+        "dist" : {
+          "type" : "zip",
+          "url" : "https://github.com/cakephp/cakephp/archive/2.4.1.zip"
+        }
+      }
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "app/Plugin/DebugKit": ["cakephp/debug_kit"]
+    }
+  },
+  "require" : {
+    "php": ">=5.2",
+    "cakephp/cakephp" : "2.4.*",
+    "cakephp/debug_kit": "2.2.*@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  }
+}
