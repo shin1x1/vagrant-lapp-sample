@@ -5,7 +5,6 @@
 .DS_Store
 *.peg
 *.swp
-*.ini
 diff
 tags
 
